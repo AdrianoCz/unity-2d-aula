@@ -138,3 +138,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Collider2D: {fileID: 58851015850570610}
   personagemController: {fileID: 0}
+  coinParticle: {fileID: 8935980230425823780, guid: 1be6f37dbf4ac8e42b3b5ab6c04ddfef, type: 3}
