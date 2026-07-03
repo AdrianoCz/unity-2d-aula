@@ -13,7 +13,7 @@ public class CoinController : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             personagemController.AddToPoints(1);
-            Instantiate(coinParticle, this.transform.position, UnityEngine.Quaternion.Euler(-90,0,0));
+            Instantiate(coinParticle, this.transform.position, UnityEngine.Quaternion.Euler(0,0,0));
             Destroy(this.gameObject);
             
         }
